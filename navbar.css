@@ -1,0 +1,51 @@
+/* Navbar styles */
+.navigation-wrapper {
+    font-style: normal;
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 40px;
+}
+
+/* Left Column Styles */
+.codepen-logo img {
+    width: 250px;
+    height: 50px;
+}
+
+.left-column {
+    display: flex;
+    align-items: center;
+}
+
+/* Links */
+.links-wrapper > .links {
+    align-items: center;
+    width: 70px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto 0.5fr;
+    grid-template-rows: auto 2rem;
+}
+
+.navigation-wrapper > .links-wrapper > .links > .explore {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+
+.links > .explore {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+
+/* Right Section Styles */
+.right-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

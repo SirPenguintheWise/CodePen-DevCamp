@@ -1,0 +1,80 @@
+/* Button stuff */
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    background-color: rgb(80, 80, 80);
+    color: #11122b;
+    font-size: 1.25em;
+    padding: 10px 25px;
+    border: 1px solid rgb(80, 80, 80);
+    border-radius: 2px;
+    outline: none;
+    transition: all 0.3s;
+}
+
+.btn:active {
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.4);
+}
+
+.create-btn-wrapper > .btn {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 1.25em;
+    padding: 10px 25px;
+    border-radius: 2px;
+    outline: none;
+    transition: all 0.3s;
+}
+
+.log-in-btn-wrapper > .btn {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 1.25em;
+    padding: 10px 25px;
+    border-radius: 2px;
+    outline: none;
+    transition: all 0.3s;
+}
+
+.sign-up-btn-wrapper > .btn {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 1.25em;
+    padding: 10px 25px;
+    border-radius: 2px;
+    outline: none;
+    transition: all 0.3s;
+}
+
+.green-btn-wrapper > .btn{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(61, 224, 112);
+    color: black;
+    font-size: 1.25em;
+    padding: 10px 25px;
+    border: 1px solid rgb(61, 224, 112);
+    border-radius: 2px;
+    outline: none;
+    transition: all 0.3s;
+}
+
+.black-btn-wrapper > .btn{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-size: 1.25em;
+    padding: 10px 25px;
+    border: 1px solid black;
+    border-radius: 2px;
+    outline: none;
+    transition: all 0.3s;
+}
+

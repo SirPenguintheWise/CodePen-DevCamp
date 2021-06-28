@@ -1,0 +1,39 @@
+/* Bottom Navbar Styles */
+.bottom-navbar {
+    height: 60px;
+    background-color: #42424a;
+    color: white;
+    border: black 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.teams {
+    width: 200px;
+    border: 1px solid grey;
+    padding: 16px 137px;
+    font-size: 20px;
+}
+
+.education {
+    width: 200px;
+    border: 1px solid grey;
+    padding: 4px 137px;
+    font-size: 20px;
+}
+
+.privacy {
+    width: 200px;
+    border: 1px solid grey;
+    padding: 16px 137px;
+    font-size: 20px;
+}
+
+.writing {
+    width: 200px;
+    border: 1px solid grey;
+    padding: 16px 137px;
+    font-size: 20px;
+}

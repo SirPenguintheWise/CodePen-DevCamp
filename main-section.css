@@ -1,0 +1,33 @@
+/* Center Section Styles */
+.center-section {
+    font-style: normal;
+}
+
+/* Gradient */
+#grad {
+    height: 750px;
+    background-image: linear-gradient(to bottom right, rgb(66, 66, 66), black);
+  }
+
+/* Content */
+.text-1 {
+    color: white;
+    margin: 0px;
+}
+
+.hand-wave img {
+    height: 50px;
+}
+
+p {
+    color: gray;
+    font-size: x-large;
+}
+
+/* Image */
+.image-header {
+    color: rgb(36, 167, 255);
+}
+.demo-image img {
+    height: 400px;
+}
