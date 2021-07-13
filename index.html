@@ -7,7 +7,10 @@
     <title>CodePen</title>
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"/>
@@ -58,7 +61,11 @@
         <div class="right-section">
             <div class="buttons">   
                 <div class="create-btn-wrapper">
-                    <button type="submit" class="btn">Create <i class="fas fa-chevron-down"></i></button>
+                    <button type="submit" class="btn">Create
+                        <div class="green-chevron">
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                    </button>
                 </div>
             </div> 
 
@@ -80,28 +87,35 @@
 
     <div class="center-section">
         <div id="grad">
-            <div class="text">    
-                <div class="text-1">
-                    <h1>CodePen is a social development environment for front-end designers and developers.</h1>
-                    <div class="hand-wave"><img src="images/hand/hand-wave.png" alt="Hand Wave"></div>
-                </div>
+            <div class="text-&-btns">
+                <div class="text">    
+                    <div class="text-1">
+                        <div>
+                            <h1>CodePen is a <strong>social development environment</strong> for front-end designers and developers.</h1>
+                        </div>
+                        <div class="hand-wave"><img src="images/hand/hand-wave.png" alt="Hand Wave"></div>
+                    </div>
     
-                <p>It's the best place to build and deploy a website, show off your work, build test cases, and find inspiration.</p>
-            </div>
+                    <p>It's the best place to build and deploy a website, show off your work, build test cases, and find inspiration.</p>
+                </div>
 
-            <div class="buttons">
-                <div class="green-btn-wrapper">
-                    <button type="submit" class="btn"><strong>Sign Up for Free</strong></button>
-                </div>
+                <div class="buttons">
+                    <div class="green-btn-wrapper">
+                        <button type="submit" class="btn"><strong>Sign Up for Free</strong></button>
+                    </div>
         
-                <div class="black-btn-wrapper">
-                    <button type="submit" class="btn"><strong>Learn More</strong></button>
+                    <div class="black-btn-wrapper">
+                        <button type="submit" class="btn"><strong>Learn More</strong></button>
+                    </div>
                 </div>
             </div>
-            <div class="image-header">This is CodePen Projects!</div>
-            <div class="demo-image">
-                <img src="images/backgrounds/right-image.png" alt="Demo">
-            </div>
+            
+            <div class="image-header">
+                <div class="name">This is <div class="blue">CodePen Projects</div>!</div>
+                <div class="demo-image">
+                    <img src="images/backgrounds/right-image.png" alt="Demo">
+                </div>
+            </div>    
         </div>
     </div>
 
