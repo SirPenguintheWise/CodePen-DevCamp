@@ -1,18 +1,26 @@
 /* Center Section Styles */
 .center-section {
+    font-family: 'Lato', sans-serif;
     font-style: normal;
+    height: 550px;
 }
 
 /* Gradient */
 #grad {
-    height: 750px;
-    background-image: linear-gradient(to bottom right, rgb(66, 66, 66), black);
+    height: 550px;
+    background-image: linear-gradient(to bottom right, rgb(59, 65, 73), black);
+    display: grid;
+    grid-template-columns: 2fr 2fr;
   }
 
 /* Content */
 .text-1 {
     color: white;
     margin: 0px;
+}
+
+.bold {
+    font-style: bold;
 }
 
 .hand-wave img {
@@ -25,9 +33,15 @@ p {
 }
 
 /* Image */
-.image-header {
-    color: rgb(36, 167, 255);
+.name {
+    color: white;
 }
+
+.blue {
+    color: rgb(36, 167, 255); 
+}
+
 .demo-image img {
-    height: 400px;
+    height: 490px;
+    width: 650px;
 }
