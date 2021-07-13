@@ -49,3 +49,7 @@
     justify-content: space-between;
     align-items: center;
 }
+
+.green-chevron {
+    color: rgb(61, 224, 112);
+}
