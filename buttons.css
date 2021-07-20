@@ -5,11 +5,11 @@
 }
 
 .btn {
-    background-color: rgb(80, 80, 80);
+    background-color: rgb(59, 65, 73);
     color: #11122b;
     font-size: 1.25em;
     padding: 10px 25px;
-    border: 1px solid rgb(80, 80, 80);
+    border: 1px solid rgb(59, 65, 73);
     border-radius: 2px;
     outline: none;
     transition: all 0.3s;
